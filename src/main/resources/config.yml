@@ -1,0 +1,11 @@
+ssh:
+  host: "yourSSHhost"
+  port: 22
+  user: "yourSSHuser"
+  password: "yourSSHpassword"
+  timeout: 5000
+  interval: 72000
+
+discord:
+  use_webhook: false
+  webhook_url: "yourWebhookUrl"

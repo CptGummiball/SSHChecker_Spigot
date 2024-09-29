@@ -1,0 +1,6 @@
+name: SSHChecker
+version: '1.0'
+main: org.cptgummiball.sshchecker.SSHChecker
+api-version: '1.20'
+authors: [ cptgummiball ]
+description: Check SSH connection
