@@ -1,11 +1,11 @@
 ssh:
-  host: "yourSSHhost"
-  port: 22
-  user: "yourSSHuser"
-  password: "yourSSHpassword"
-  timeout: 5000
-  interval: 72000
+  host: "yourSSHhost"         # The hostname or IP address of your SSH server
+  port: 22                    # The port of your SSH server (default 22)
+  user: "yourSSHuser"         # The SSH username
+  password: "yourSSHpassword" # The SSH password
+  timeout: 5000               # SSH connection timeout in milliseconds
+  interval: 72000             # Check interval in ticks (72000 ticks = 60 minutes)
 
 discord:
-  use_webhook: false
-  webhook_url: "yourWebhookUrl"
+  use_webhook: false          # Enable/disable Discord webhook notifications
+  webhook_url: "yourWebhookUrl" # Discord webhook URL to send error messages to
